@@ -21,6 +21,7 @@ class App extends Component {
         console.log(this.state)
       })
 
+      //enables click functionality 
     this.setState(prevState => ({
       active: !prevState.active
     }));
